@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'agent' }
+  agent { label 'lalit' }
 
   environment {
     IMAGE = "lalit25/grocery-app"   // <-- Your Docker Hub repo name
