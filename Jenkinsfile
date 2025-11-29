@@ -4,10 +4,10 @@ pipeline {
   environment {
     IMAGE = "lalit25/grocery-app"              // <- your DockerHub repo
     TAG   = "${env.GIT_COMMIT.take(7)}"
-    DOCKER_CREDS = "dockerhub-creds"           // credential id for Docker Hub
+    DOCKER_CREDS = "dckr_pat_qZZk4uYVPj-F0miAg7RPvA81_N4"           // credential id for Docker Hub
     SSH_CRED = "deploy-ssh-key"                // credential id for deploy SSH (optional)
-    DEPLOY_HOST = ""                           // <- put remote IP (or leave blank to skip deploy)
-    DEPLOY_USER = ""                           // <- put remote username
+    DEPLOY_HOST = "44.192.69.147"                           // <- put remote IP (or leave blank to skip deploy)
+    DEPLOY_USER = "lalit"                           // <- put remote username
     REMOTE_DIR = "deploy_dir"                  // remote dir where docker-compose.yml exists (or will be created)
   }
 
