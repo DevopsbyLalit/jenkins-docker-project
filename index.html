@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lalit Patil — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="#home">Lalit<span>Patil</span></a>
+
+    <nav id="nav" class="nav">
+      <ul>
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="actions">
+      <a href="assets/final-resume-for-devops.pdf" download class="btn btn-outline">Download CV</a>
+      <button id="theme-toggle" class="icon-btn" aria-label="toggle theme"><i class="fas fa-moon"></i></button>
+      <button id="mobile-menu-btn" class="icon-btn"><i class="fas fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left" data-animate="fade-in" data-delay="0.1s">
+        <h1 class="hero-title">Hi, I'm <span>Lalit Patil</span></h1>
+        <p class="hero-sub">Frontend Developer & Aspiring DevOps Engineer</p>
+        <p class="hero-desc">I build fast, accessible web experiences and automate deployments using CI/CD, Docker and cloud tools. Currently learning Kubernetes & Terraform.</p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">See Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+
+        <div class="hero-meta">
+          <div><strong>Location:</strong> Pune, India</div>
+          <div><strong>Email:</strong> <a href="mailto:lalitpatil251092@gmail.com">lalitpatil251092@gmail.com</a></div>
+        </div>
+      </div>
+
+      <div class="hero-right" data-animate="slide-up" data-delay="0.2s">
+        <div class="profile-card">
+          <div class="profile-frame">
+            <img src="photo/model-photo-2.webp" alt="Lalit Patil" class="profile-img">
+          </div>
+          <div class="profile-info">
+            <h3>Lalit Patil</h3>
+            <p class="muted">BCA · Frontend · DevOps Learner</p>
+            <div class="social-sm">
+              <a href="https://github.com/DevopsbyLalit" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/lalit-patil25/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+
+      <div class="about-grid">
+        <div class="about-card" data-animate="fade-in" data-delay="0.1s">
+          <h3>Hello 👋</h3>
+          <p>I’m Lalit — a frontend enthusiast and aspiring DevOps engineer. I enjoy building user-friendly interfaces and automating the deployment pipeline to make development repeatable, fast and safe.</p>
+
+          <div class="detail-grid">
+            <div><strong>Name</strong><span>Lalit Patil</span></div>
+            <div><strong>Location</strong><span>Pune, India</span></div>
+            <div><strong>Email</strong><span><a href="mailto:lalitpatil251092@gmail.com">lalitpatil251092@gmail.com</a></span></div>
+            <div><strong>Phone</strong><span>+91 9322152770</span></div>
+          </div>
+
+          <a class="btn btn-outline mt-16" href="assets/final-resume-for-devops.pdf" download>Download Resume</a>
+        </div>
+
+        <div class="skills-card" data-animate="slide-up" data-delay="0.2s">
+          <h3>Top Skills</h3>
+          <ul class="skills-list">
+            <li>HTML · CSS · JS · React</li>
+            <li>Docker · Docker Compose</li>
+            <li>Linux · Bash · Git</li>
+            <li>Jenkins · CI/CD · AWS (EC2)</li>
+            <li>Terraform basics · Kubernetes (learning)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Skills <span>Overview</span></h2>
+      <div class="skills-grid">
+        <div class="skill" data-animate="fade-in" data-delay="0.1s">
+          <h4>Frontend</h4>
+          <div class="bar"><span style="width:95%"></span></div>
+        </div>
+        <div class="skill" data-animate="fade-in" data-delay="0.15s">
+          <h4>DevOps / Docker</h4>
+          <div class="bar"><span style="width:85%"></span></div>
+        </div>
+        <div class="skill" data-animate="fade-in" data-delay="0.2s">
+          <h4>AWS / Cloud</h4>
+          <div class="bar"><span style="width:75%"></span></div>
+        </div>
+        <div class="skill" data-animate="fade-in" data-delay="0.25s">
+          <h4>CI/CD / Jenkins</h4>
+          <div class="bar"><span style="width:80%"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects <span>Selected</span></h2>
+
+      <div class="projects-grid">
+        <!-- Project cards: update links/images as needed -->
+        <article class="project-card" data-animate="slide-up" data-delay="0.1s">
+          <img src="pong-Game.png" alt="Pong Game" class="project-thumb">
+          <div class="project-body">
+            <h3>Pong Game</h3>
+            <p>HTML5 Canvas game with scoring & smooth controls. <a href="https://devopsbylalit.github.io/Pong-Game/" target="_blank">Live</a> · <a href="https://github.com/DevopsbyLalit/pong-game" target="_blank">Code</a></p>
+          </div>
+        </article>
+
+        <article class="project-card" data-animate="slide-up" data-delay="0.15s">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/70a8efa1-e11f-47a7-a620-b3f15435e750.png" class="project-thumb">
+          <div class="project-body">
+            <h3>Task Manager</h3>
+            <p>Kanban style task manager with drag & drop. Demo & code links included.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-animate="slide-up" data-delay="0.2s">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d2fa32a1-ccc3-4f9e-a3cd-e3c30adc245a.png" class="project-thumb">
+          <div class="project-body">
+            <h3>Weather App</h3>
+            <p>Weather lookup using public APIs — geolocation + 5 day forecast.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>If you'd like to collaborate — send a message or email me directly.</p>
+          <ul class="contact-list">
+            <li><i class="fas fa-envelope"></i> <a href="mailto:lalitpatil251092@gmail.com">lalitpatil251092@gmail.com</a></li>
+            <li><i class="fas fa-phone"></i> +91 9322152770</li>
+            <li><i class="fas fa-map-marker-alt"></i> Pune, India</li>
+          </ul>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <input id="name" required placeholder="Your name">
+          <input id="email" type="email" required placeholder="Your email">
+          <input id="subject" placeholder="Subject">
+          <textarea id="message" required placeholder="Message"></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>© 2025 Lalit Patil — Built with ❤️</div>
+    <div class="muted">GitHub: <a href="https://github.com/DevopsbyLalit" target="_blank">DevopsbyLalit</a></div>
+  </div>
+</footer>
+
+<button id="back-to-top" class="back-to-top" title="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+<script src="app.js"></script>
+</body>
+</html>
